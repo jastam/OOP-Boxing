@@ -42,7 +42,6 @@ public class Fists : MonoBehaviour, Weapon
     // Start is called before the first frame update
     void Start()
     {
-        gameObject.SetActive(false);
         rightFist = new FistData(transform.Find("Right fist").gameObject, range);
         leftFist = new FistData(transform.Find("Left fist").gameObject, range);
     }
