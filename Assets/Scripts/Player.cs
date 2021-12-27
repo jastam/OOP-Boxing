@@ -27,6 +27,7 @@ public class Player : MonoBehaviour
         previousPosition = transform.position;
     }
 
+    //POLYMORPHISM
     private void SwitchToWeapon(int weaponIndex)
     {
         if (weaponIndex == activeWeapon || weapons.Length < 2)
@@ -44,6 +45,7 @@ public class Player : MonoBehaviour
         weapons[activeWeapon].Activate();
     }
 
+    //POLYMORPHISM
     private void SwitchToWeapon(bool up)
     {
         int switchTo = activeWeapon;

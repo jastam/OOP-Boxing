@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Fists : MonoBehaviour, Weapon
+public class Fists : MonoBehaviour, Weapon // INHERITANCE
 {
     [SerializeField] private float range = 1;
     [SerializeField] private float damage = 3;
@@ -29,6 +29,7 @@ public class Fists : MonoBehaviour, Weapon
         gameObject.SetActive(false);
     }
 
+    //ABSTRACTION
     public void Attack()
     {
         if (state != State.Rest)

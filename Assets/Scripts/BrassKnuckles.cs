@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BrassKnuckles : Fists
+public class BrassKnuckles : Fists //INHERITANCE
 {
     public override string Name => "Brass knuckles";
 }

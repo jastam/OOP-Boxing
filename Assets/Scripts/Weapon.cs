@@ -1,6 +1,6 @@
 public interface Weapon
 {
-    public string Name { get; }
+    public string Name { get; } //ENCAPSULATION
 
     public bool IsActive { get; }
 
